@@ -14,7 +14,8 @@ app = FastAPI(title="Open Source Image DAM")
 origins = [
     "http://localhost",
     "http://localhost:8501", # Streamlit
-    "http://localhost:5173", # Vite React
+    "http://localhost:5173", # Vite React,
+    "https://clip-dam.netlify.app"
 ]
 
 app.add_middleware(
